@@ -12,7 +12,7 @@ const categoryIcons = {
   Category.travel: Icons.flight_takeoff,
   Category.leisure: Icons.movie,
   Category.work: Icons.work,
-}
+};
 
 class Expense {
   Expense({
@@ -27,7 +27,6 @@ class Expense {
   final double amount;
   final DateTime date;
   final Category category;
-
 
   // intl package for date formatting
   String get formattedDate {
